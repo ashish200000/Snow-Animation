@@ -33,7 +33,7 @@ function draw() {
   for(var i = 0; i < maxSnow; i++){
     snow.push(new Snow(random(1,10000),3,9))
   }
-  for(var i = 0; i<maxSnow;i++){
+  for(var i = 0 ; i<snow.length; i++){
     snow[i].display();
 
   }
